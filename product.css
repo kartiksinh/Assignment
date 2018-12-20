@@ -1,0 +1,38 @@
+#product .card .card-content .quantity label {
+	font-size: 12px;
+	margin-right: 0.5rem;
+}
+
+#product .card .card-content .quantity input {
+	padding: 0.5rem;
+	width: 50px;
+	text-align: center;
+}
+
+#product .card .card-content .price {
+	color: #0085ff;
+}
+
+#product .card .card-content .cta {
+	text-align: right;
+}
+
+#product .card .card-content .cta button {
+	padding: 1rem;
+	border-radius: 2px;
+	text-transform: uppercase;
+	margin-left: 0.5rem;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#product .card .card-content .cta .buy {
+	background: #ff9900;
+	color: #fff;
+}
+.product-detail-container{
+	font-size: 14px;
+}
+.points{
+	padding-left: 25px;
+}

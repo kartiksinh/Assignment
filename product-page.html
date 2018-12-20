@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./utilities.css">
+	<link rel="stylesheet" type="text/css" href="./app.css">
+	<link rel="stylesheet" type="text/css" href="./product.css">
+</head>
+<body>
+	<div class="header">
+		<div>
+			<img class="header-logo" src="./assets/headerLogo.png" alt="Logo">
+		</div>
+		<div>
+			<i class="fas fa-shopping-cart"></i>
+			<i class="fas fa-user"></i>
+		</div>
+	</div>
+	<div class="content">
+		<div id="product">
+			<div class="row mt2">
+				<div class="col-4">
+					<div class="card">
+						<img src="./img/5.jpg" alt="first" class="fluid block">
+						<div class="card-content">
+							<p class="m0 title bold">Cool-tip RF Ablation System and Switching Controller</p>
+							<div class="flex mt2 pb2 justify-between border-bottom">
+								<div class="quantity">
+									<label>Quantity: </label>
+									<input type="number" value="1">
+								</div>
+								<div class="price">
+									<h3 class="m0">$312</h3>
+								</div>
+							</div>
+
+							<div class="flex mt2 pb2 justify-between">
+								<div class="quantity">
+									<label class="bold">Total </label>
+								</div>
+								<h3 class="m0">$312</h3>
+							</div>
+
+							<div class="cta">
+								<Button class="cart-add"><i class="fas fa-check"></i> Added To Cart</Button>
+								<Button class="buy">Buy Now</Button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-8 product-detail-container">
+					<h3>Cool-tip RF Ablation System and Switching Controller</h3>
+					<div class="details">
+						<h4>Cool-tip RF Ablation Generator</h4>
+						<p>Exclusive feedback algorithm continuosly monitors tissue impedance, automatically adjusting output to maximize energy delivery.</p>
+						<p>200-watt power source pulses energy delivery,generating larger ablation volumes.</p>
+						<p>Thermocouple at electrode tip monitors tissue temperature.Once the treatment cycle is complete,the electrode may be repositioned to measure ablation temperature.</p>
+						<p>Automated cycle decreases treatment time - successful tissue ablation is typically achieved in 16 minutes.</p>
+						<p>LCD status window provides user-friendly feedback during setup and operation.</p>
+					</div>
+					<div class="details">
+						<h4>Cool-tip RF Ablation Switching Controller</h4>
+						<p>Use three electrodes simultaneously to ablate a larger lesion.</br>
+						<span class="points">Create a 6 cm diameter lesion in 16 minutes.</span></br>
+						<span class="points">Full generator output delivered to each  electrode.</span></p>
+						<p>Create mulitple, separate lesions simultaneously</br>
+						<span class="points">Determine lesion size by using 3 or 4 cm exposed tip.</span></br>
+						<span class="points">Create up to three lesions in one ablation cycle.</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="left-footer">
+			<div class="location">
+				<div class="location-icon"><i class="fas fa-map-marker-alt"></i></div>
+				<div><p>INDIA</p></div>
+			</div>
+			<div class="location-button">Change</div>
+		</div>
+		<div class="center-footer">
+			<div class="social-icon">
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-twitter-square"></i>
+				<i class="fab fa-google-plus"></i>
+			</div>
+			<div class="footer-text"><p>Privacy policy | Terms | Contact</p></div>
+			<div class="footer-text"><p>&copy; Copyright2018</p></div>
+		</div>
+		<div class="right-footer">
+			<div class="footer-text">Powered by</div>
+			<div><img class="footer-logo" src="./assets/footerLogo.png" alt="Logo"></div>
+		</div>
+	</div>
+</body>
+</html>
